@@ -1,0 +1,60 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and navigation */
+header {
+  background-color: red; /* Adjust color as needed */
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+/* Home section */
+#home {
+  background-color: blue; /* Adjust color as needed */
+  color: white;
+  padding: 100px;
+  text-align: center;
+}
+
+.profile img {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+/* Contact section */
+#contact {
+  padding: 50px;
+}
+
+/* Burger menu */
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.burger {
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  margin: 3px 0;
+}
